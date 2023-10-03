@@ -9,13 +9,13 @@ body {
     height: 70px;
     position: sticky;
   }
-  .navegacion{
+  .navegacion {
     display: flex;
     justify-content: space-between;
   }
-  .navegacion input[type="text"] {
+  .navegacion input[type=text] {
     margin-top: 5px;
-    background-color: #f9f9f9;;
+    background-color: #f9f9f9;
     height: 20px;
     width: 70%;
     border: 0px;
@@ -23,28 +23,28 @@ body {
   .logo {
     width: 40px;
   }
-  .login{
+  .login {
     text-decoration: none;
     color: darkgrey;
     margin-right: 10px;
     margin-top: 5px;
   }
-  ul,li{
+  ul, li {
     display: inline-flex;
     margin: 5px;
   }
-  a{
+  a {
     color: darkgrey;
     text-decoration: none;
   }
-  ul{    
+  ul {
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
   }
-  a:hover{
+  a:hover {
     color: black;
   }
-  h3{
+  h3 {
     height: 50px;
     margin-top: 30px;
     border-bottom: 1px solid lightgrey;
@@ -52,8 +52,10 @@ body {
     align-items: center;
     color: black;
   }
-  .box{
+  .box {
     height: 140px;
     border: 1px solid black;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
