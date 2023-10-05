@@ -54,18 +54,15 @@ body {
     margin-bottom: 0%;
   }
   .box {
-    height: 140px;
+    height: 110px;
     border-bottom: 1px solid lightgrey;
+    display: flex;
+    flex-wrap: wrap;
   }
   .item {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0%;
-  }
-  .pack {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
   }
   .b1 {
     height: 90px;
@@ -86,7 +83,6 @@ body {
   }
   .sec-1 {
     border: 1px solid lightgrey;
-    margin-left: 100px;
     height: 20px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -98,6 +94,9 @@ body {
   }
   .sec-1 p {
     margin-top: 0%;
+  }
+  .sec-1:hover {
+    color: black;
   }
   .sec-2 {
     border: 1px solid lightgray;
@@ -118,6 +117,9 @@ body {
     height: 10px;
     margin-top: 5px;
   }
+  .sec-2:hover {
+    color: black;
+  }
   .sec-3 {
     border: 1px solid lightgrey;
     height: 20px;
@@ -129,5 +131,8 @@ body {
   }
   .sec-3 p {
     margin-top: 0%;
+  }
+  .sec-3:hover {
+    color: black;
   }
 }/*# sourceMappingURL=styles.css.map */
